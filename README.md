@@ -1,4 +1,6 @@
-# `rvbt`: Baremetal Backtrace on RISC-V
+# `rvbt` Baremetal Backtrace on RISC-V
+
+[中文介绍](https://jwnhy.github.io/riscv/rvbt.html)
 
 ## What is it and why?
 
@@ -88,10 +90,11 @@ As long as you can put the debugee program's DWARF info into `rvbt`.
 ## Future Work
 
 - [x] Meaningful backtrace
-- []  Cross-platform support
-- []  More debug functionality, memory probing, breakpoint
-- []  Space efficient DWARF storage
-- []  Easy-to-use script/package
+- [ ] Cross-platform support
+- [ ] More debug functionality, memory probing, breakpoint
+- [ ] Space efficient DWARF storage
+- [ ] Easy-to-use script/package
+- [ ] crate.io publish
 
 ## Limitation
 
